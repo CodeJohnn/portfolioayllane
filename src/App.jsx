@@ -58,7 +58,7 @@ function Abertura({ origem, retrato }) {
     <section className="hero" id="inicio" aria-labelledby="titulo-principal">
       <div className="hero-scene" aria-hidden="true" />
       <div className="hero-portrait" ref={origem}>
-        <img ref={retrato} src="/ayllane-retrato.png" alt="Ayllane Cristine em traje social" width="816" height="1927" fetchpriority="high" />
+        <img ref={retrato} src={`${import.meta.env.BASE_URL}ayllane-retrato.png`} alt="Ayllane Cristine em traje social" width="816" height="1927" fetchpriority="high" />
       </div>
       <div className="hero-copy">
         <p className="label">Portfólio acadêmico</p>
